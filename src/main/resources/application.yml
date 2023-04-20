@@ -1,0 +1,63 @@
+server:
+  port: 8022
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    password: manager
+    url: jdbc:oracle:thin:@Localhost:1521:XE
+    username: system
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  servicesurl:
+   customer-address: http://localhost:8021/addressdata
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
