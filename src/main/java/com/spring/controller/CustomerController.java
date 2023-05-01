@@ -22,7 +22,10 @@ import com.spring.service.ServiceImpl;
 public class CustomerController {
 	@Autowired
 	public ServiceImpl service;
+	
+	// test git push
 
+	
 	@PostMapping("/info")
 	public ResponseEntity<?> saveData(@RequestBody RequestEntity obj) {
 		CustomerResponseObj saveData = service.saveData(obj);
