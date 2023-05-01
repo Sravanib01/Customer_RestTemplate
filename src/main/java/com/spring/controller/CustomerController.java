@@ -24,6 +24,7 @@ public class CustomerController {
 	public ServiceImpl service;
 	
 	// test git push
+	// test added
 
 	
 	@PostMapping("/info")
